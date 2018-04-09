@@ -1,0 +1,13 @@
+按先后顺序
+
+1、添加货车站、集装箱原始数据（普通精度+超高精度）
+2、轨道原始数据变为三站（普通精度*3）；尽量选择点密度大的范围
+3、控制窗口，删去不必要的内容
+4、热点增删改(done)
+5、热点选取优化(done)
+6、测角度、三角形面积、四边形面积
+
+* glpointsize set to 2
+* path on the vertical map
+* background color
+* hotspot color

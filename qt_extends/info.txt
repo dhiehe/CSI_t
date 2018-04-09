@@ -1,0 +1,10 @@
+#glfw glew glm opengl
+INCLUDEPATH += \
+    "$$PWD/qt_extends/include/"
+DEPENDPATH += \
+    "$$PWD/qt_extends/lib-mingw/glfw/" \
+    "$$PWD/qt_extends/lib-mingw/glew/1"
+LIBS += -L"$$PWD/qt_extends/lib-mingw/glfw/" -lglfw3dll
+LIBS += -L"$$PWD/qt_extends/lib-mingw/glew/1" -lglew32.dll
+LIBS += -lopengl32
+LIBS += -lglu32
